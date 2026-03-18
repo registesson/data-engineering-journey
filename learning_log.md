@@ -22,12 +22,14 @@ Chaque session = un bloc daté avec 4 champs fixes.
 ## Sessions
 
 ### 2026-03-18 · SQL — CTEs & Window Functions · 40 min
+
 **Ce que j'ai fait** : Lecture Mode SQL Tutorial (CTEs), résolution LeetCode 176 & 184.  
 **Ce que j'ai appris** : ...  
 **Ce qui était difficile** : ...  
 **Prochaine étape** : ...
 
 ### 2026-03-18 · Pandas — Exploration dataset Netflix · 20 min
+
 **Ce que j'ai fait** : Chargement CSV, `.info()`, `.describe()`, nettoyage `date_added`, `groupby` genre.  
 **Ce que j'ai appris** : ...  
 **Ce qui était difficile** : ...  
@@ -37,15 +39,15 @@ Chaque session = un bloc daté avec 4 champs fixes.
 
 ## Suivi de progression
 
-| Phase | Contenu | Statut | Démarré |
-|---|---|---|---|
-| Phase 1 | Python pour la data (Pandas, NumPy) | 🟡 En cours | 2026-03-18 |
-| Phase 1 | SQL avancé (CTEs, window functions) | 🟡 En cours | 2026-03-18 |
-| Phase 2 | Machine Learning — bases (fast.ai) | ⬜ À venir | — |
-| Phase 2 | LLMs & AI Engineering (HuggingFace) | ⬜ À venir | — |
-| Phase 3 | Data Engineering (Airflow, dbt, Spark) | ⬜ À venir | — |
-| Phase 3 | Cloud (GCP ou AWS) | ⬜ À venir | — |
-| Capstone | Pipeline Netflix (OMDb + dbt + Airflow + Streamlit) | ⬜ À venir | — |
+| Phase    | Contenu                                             | Statut      | Démarré    |
+| -------- | --------------------------------------------------- | ----------- | ---------- |
+| Phase 1  | Python pour la data (Pandas, NumPy)                 | 🟡 En cours | 2026-03-18 |
+| Phase 1  | SQL avancé (CTEs, window functions)                 | 🟡 En cours | 2026-03-18 |
+| Phase 2  | Machine Learning — bases (fast.ai)                  | ⬜ À venir  | —          |
+| Phase 2  | LLMs & AI Engineering (HuggingFace)                 | ⬜ À venir  | —          |
+| Phase 3  | Data Engineering (Airflow, dbt, Spark)              | ⬜ À venir  | —          |
+| Phase 3  | Cloud (GCP ou AWS)                                  | ⬜ À venir  | —          |
+| Capstone | Pipeline Netflix (OMDb + dbt + Airflow + Streamlit) | ⬜ À venir  | —          |
 
 ---
 
@@ -66,15 +68,15 @@ Chaque session = un bloc daté avec 4 champs fixes.
 
 ## Ressources utilisées
 
-| Ressource | Type | Phase | Statut |
-|---|---|---|---|
-| Mode SQL Tutorial | Cours gratuit | 1 | 🟡 En cours |
-| LeetCode SQL Track | Exercices | 1 | 🟡 En cours |
-| Kaggle Learn — Pandas | Cours gratuit | 1 | 🟡 En cours |
-| Python Data Science Handbook | Livre gratuit | 1 | ⬜ À venir |
-| fast.ai — Practical Deep Learning | Cours gratuit | 2 | ⬜ À venir |
-| Data Engineering Zoomcamp | Bootcamp gratuit | 3 | ⬜ À venir |
-| dbt Learn | Cours officiel | 3 | ⬜ À venir |
+| Ressource                         | Type             | Phase | Statut      |
+| --------------------------------- | ---------------- | ----- | ----------- |
+| Mode SQL Tutorial                 | Cours gratuit    | 1     | 🟡 En cours |
+| LeetCode SQL Track                | Exercices        | 1     | 🟡 En cours |
+| Kaggle Learn — Pandas             | Cours gratuit    | 1     | 🟡 En cours |
+| Python Data Science Handbook      | Livre gratuit    | 1     | ⬜ À venir  |
+| fast.ai — Practical Deep Learning | Cours gratuit    | 2     | ⬜ À venir  |
+| Data Engineering Zoomcamp         | Bootcamp gratuit | 3     | ⬜ À venir  |
+| dbt Learn                         | Cours officiel   | 3     | ⬜ À venir  |
 
 ---
 
@@ -82,12 +84,23 @@ Chaque session = un bloc daté avec 4 champs fixes.
 
 _Noter ici les points flous à creuser, les erreurs incomprises, les concepts à revoir._
 
-- 
+-
 
 ---
 
 ## Idées de projets & extensions capstone
 
 - Pipeline Netflix : enrichissement OMDb API → PostgreSQL → dbt → Airflow → Streamlit
-- 
+-
 
+---
+
+## Sources de veille par fréquence
+
+| Ressources                            | Notes                                                                                        | Fréquence          |
+| ------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------ |
+| The Batch — DeepLearning.AI           | Newsletter hebdo d'Andrew Ng. Synthèse IA, ML, LLMs. 15 min de lecture.                      | Chaque semaine     |
+| Towards Data Science                  | Articles de praticiens. Cherche par tag : "data engineering", "pandas", "dbt", "airflow".    | 2-3x / semaine     |
+| Hugging Face Blog                     | Nouveaux modèles, papers résumés, tutoriels. Utile surtout en Phase 2 (LLMs).                | Phase 2 -> hebdo   |
+| DataTalks.Club — newsletter & podcast | Communauté Data Engineering. Interviews de praticiens, retours d'expérience pipelines réels. | 1x / semaine       |
+| MLOps Community — podcast             | Mise en prod de modèles ML. À écouter en marchant ou en cuisine. Utile Phase 3.              | Phase 3 -> mensuel |
