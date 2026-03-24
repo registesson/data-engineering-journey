@@ -41,6 +41,7 @@ Chaque session = un bloc daté avec 4 champs fixes.
 
 | Phase    | Contenu                                             | Statut      | Démarré    |
 | -------- | --------------------------------------------------- | ----------- | ---------- |
+| Phase 1  | Python for Everybody (Coursera)                     |  Terminé    | 2026-03-18 |
 | Phase 1  | Python pour la data (Pandas, NumPy)                 | 🟡 En cours | 2026-03-18 |
 | Phase 1  | SQL avancé (CTEs, window functions)                 | 🟡 En cours | 2026-03-18 |
 | Phase 2  | Machine Learning — bases (fast.ai)                  | ⬜ À venir  | —          |
